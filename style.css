@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Bebas+Neue&family=Roboto:wght@400;500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -22,4 +22,19 @@ body{
 .panel{
     background-size: auto 100%;
     background-position: center;
+    background-repeat: no-repeat;
+    height:80vh;
+    border-radius: 50px;
+    color:blanchedalmond;
+    text-shadow: 2px 2px #000;
+    cursor:pointer;
+    flex: 0.5px;
+    margin:10px;
+    position:relative;
+    transition: flex 0.7s ease-in;
+}
+
+.panel h3{
+    font-size: 24px;
+
 }
